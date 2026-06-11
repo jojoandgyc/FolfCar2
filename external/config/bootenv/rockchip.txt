@@ -1,0 +1,4 @@
+verbosity=7
+bootlogo=false
+console=serial
+extraargs=cma=128M earlycon=uart8250,mmio32,0xfeb50000 ignore_loglevel no_console_suspend initcall_debug clk_ignore_unused pd_ignore_unused regulator_ignore_unused
